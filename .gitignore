@@ -1,1 +1,4 @@
 node_modules
+.vscode
+
+tests/index.js
