@@ -1,13 +1,17 @@
 {
   "name": "less-plugin-platform",
   "version": "1.0.0",
-  "description": "",
+  "description": "less platform compile by comment",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "release": "npm publish --registry=https://registry.npmjs.org"
   },
-  "keywords": [],
-  "author": "gaojd",
+  "keywords": [
+    "less",
+    "platform compile"
+  ],
+  "author": "we125182",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
@@ -16,5 +20,13 @@
   },
   "peerDependencies": {
     "less": "^3.5.0 || ^4.0.0"
+  },
+  "homepage": "https://github.com/we125182/less-plugin-platform",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/we125182/less-plugin-platform.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
